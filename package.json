@@ -1,0 +1,16 @@
+{
+  "name": "spacefix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spacefix.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json && cp build/main.js spacefix.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "garnetius",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.10.1"
+  }
+}

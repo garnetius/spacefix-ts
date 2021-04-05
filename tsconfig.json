@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6"],
+    "strict": true,
+    "allowJs": true,
+    "outDir": "build",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"],
+}
